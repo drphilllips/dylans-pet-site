@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./App.css";
+import logo from "./assets/dylans-pet-site-logo.png";
 
 function App() {
   const calendlyRef = useRef<HTMLDivElement | null>(null);
@@ -28,8 +29,12 @@ function App() {
       {/* HERO */}
       <header className="hero">
         <div className="hero-content">
-          <div className="logo-circle">🐾</div>
-          <h1>Dylan&apos;s Dog-Walking &amp; Pet-Sitting</h1>
+          <img
+            src={logo}
+            alt="Dylan's Pet Site logo"
+            className="logo-image"
+          />
+          <h1>Dylan's Dog-Walking & Pet-Sitting</h1>
           <p className="tagline">
             Reliable walks and loving in-home care for your furry family members.
           </p>
@@ -63,7 +68,7 @@ function App() {
             </p>
             <ul>
               <li>Feeding and litter/yard cleanup</li>
-              <li>Playtime &amp; cuddles</li>
+              <li>Playtime & cuddles</li>
               <li>Medication administration (if needed)</li>
             </ul>
           </div>
@@ -74,7 +79,7 @@ function App() {
       <section className="section">
         <h2>About Dylan</h2>
         <p>
-          Hi! I&apos;m Dylan, a lifelong animal lover and experienced pet caregiver.
+          Hi! I'm Dylan, a lifelong animal lover and experienced pet caregiver.
           I provide dependable, communicative, and flexible dog-walking and
           pet-sitting services so you can travel or work with peace of mind.
         </p>
@@ -85,7 +90,7 @@ function App() {
         <h2>Service Area</h2>
         <p>
           Currently serving pets in <strong>Gunbarrel, Boulder CO</strong>.
-          Not sure if you&apos;re in range? Reach out and we&apos;ll work it out.
+          Not sure if you're in range? Reach out and we'll work it out.
         </p>
       </section>
 

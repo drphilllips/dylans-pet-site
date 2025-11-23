@@ -24,17 +24,13 @@ body {
   margin: 0 auto;
 }
 
-.logo-circle {
-  width: 72px;
-  height: 72px;
-  border-radius: 999px;
+.logo-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 32px;   /* <— rounded corners, not a circle */
   margin: 0 auto 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  background-color: #f97316;
-  color: white;
+  display: block;
 }
 
 h1 {
