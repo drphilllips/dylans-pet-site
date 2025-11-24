@@ -40,7 +40,7 @@ function App() {
             alt="Dylan's Pet Site logo"
             className="logo-image"
           />
-          <h1>Dylan's Dog-Walking & Pet-Sitting</h1>
+          <h1>Dylan's Dog Walking & Pet Sitting</h1>
           <p className="tagline">
             Reliable walks and loving in-home care for your furry family members.
           </p>
@@ -61,6 +61,7 @@ function App() {
         <div className="card-grid">
           <div className="card">
             <h3>Dog-Walking</h3>
+            <p className="price-tag">$20 / walk / dog</p>
             <p>
               Daily walks, potty breaks, and exercise tailored to your dog's
               energy level and routine.
@@ -73,6 +74,7 @@ function App() {
           </div>
           <div className="card">
             <h3>Pet-Sitting</h3>
+            <p className="price-tag">Custom pricing based on your pet's needs</p>
             <p>
               In-home drop-ins and overnight stays so your pets stay relaxed in
               their own space.
@@ -100,7 +102,7 @@ function App() {
       <section className="section">
         <h2>Service Area</h2>
         <p>
-          Currently serving pets in <strong>Gunbarrel, Boulder CO</strong>.
+          Currently serving pets in <strong>Boulder, CO</strong>.
           Not sure if you're in range? Reach out and we'll work it out.
         </p>
       </section>
@@ -119,7 +121,7 @@ function App() {
           <a href="tel:4089665319">(408) 966-5319</a>
           <br />
           <strong>Email:</strong>{" "}
-          <a href="mailto:dphillips072402@gmail.com">dphillips072402@gmail.com</a>
+          <a href="mailto:dylans.pet.site@gmail.com">dylans.pet.site@gmail.com</a>
         </p>
         <p>
           We'll discuss your pets' needs, schedule, and any special requests to customize
@@ -150,7 +152,7 @@ function App() {
       <footer className="footer">
         <p>
           Questions? Email{" "}
-          <a href="mailto:dphillips072402@gmail.com">dphillips072402@gmail.com</a>
+          <a href="mailto:dylans.pet.site@gmail.com">dylans.pet.site@gmail.com</a>
         </p>
         <p>© {new Date().getFullYear()} Dylan's Dog-Walking & Pet-Sitting</p>
       </footer>
